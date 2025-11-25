@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання 4: Навігаційна панель</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0; 
+            font-family: Arial, sans-serif;
+        }
+
+        .nav {
+            background-color: #333333;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-links-item {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            transition: background-color 0.3s, border-radius 0.3s;
+        }
+
+        .nav-links-item:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo">Логотип</div>
+        <div class="nav-links">
+            <a href="#" class="nav-links-item">Головна</a>
+            <a href="#" class="nav-links-item">Про нас</a>
+            <a href="#" class="nav-links-item">Послуги</a>
+            <a href="#" class="nav-links-item">Контакти</a>
+        </div>
+    </nav>
+    </body>
+</html>
